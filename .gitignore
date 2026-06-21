@@ -1,0 +1,16 @@
+# lazy.nvim
+lazy-lock.json
+
+# Plugin artifacts
+*.so
+*.dll
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.claude/
+.expect/
+.idea/
+.vscode/
