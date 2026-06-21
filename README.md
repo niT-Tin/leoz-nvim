@@ -35,7 +35,7 @@ Personal Neovim configuration powered by [lazy.nvim](https://github.com/folke/la
 
 ### And More...
 
-**Tree-sitter** — Syntax highlighting with auto-install for lua, go, rust, python, c/c++, js/ts, html/css, toml, yaml, json, markdown, and more.
+**Tree-sitter** — Syntax highlighting with auto-install for lua, go, rust, python, c/c++, js/ts, html/css, toml, yaml, json, markdown. Requires `cargo` or `npm` for the tree-sitter CLI (auto-installed on first launch).
 
 **Rainbow Delimiters** — Each bracket pair gets a distinct color; deeply nested code becomes instantly readable.
 
@@ -58,6 +58,42 @@ Personal Neovim configuration powered by [lazy.nvim](https://github.com/folke/la
 **Cursor Word HL** — vim-illuminate highlights all occurrences of the word under cursor across the buffer.
 
 **Rust Crates** — crates.nvim shows the latest version and out-of-date warnings inline in `Cargo.toml`.
+
+## Keybindings
+
+Leader key is `<Space>`.
+
+| Key | Description |
+|-----|-------------|
+| `jk` | Escape (insert mode) |
+| `<Leader>h` | Clear search highlight |
+| `<Leader>e` | Toggle file explorer |
+| `<Leader>E` | Reveal file in explorer |
+| `<Leader>sf` | Find file |
+| `<Leader>sb` | Find buffer |
+| `<Leader>st` | Grep/search text |
+| `<Leader>sd` | Find diagnostics |
+| `<Leader>sp` | Pick colorscheme |
+| `<Leader>sk` | Find keymap |
+| `<Leader>si` | Insert icon |
+| `<Leader>o` | Symbol outline (aerial) |
+| `<Leader>ti` | Toggle LSP inlay hints |
+| `<Leader>tt` | Todo quickfix list |
+| `<Leader>gg` | Neogit |
+| `<Leader>lg` | LazyGit |
+| `<Leader>z` | Zen mode |
+| `<Leader>p` | Yank history picker |
+| `<Leader>Lc` | Edit nvim config |
+| `s` | EasyMotion jump |
+| `<Leader>f` | EasyMotion cross-window jump |
+| `<M-r>` | Floating terminal |
+| `<M-w>` | Bottom terminal |
+| `<M-e>` | Right terminal |
+| `<Leader>dt` | Toggle breakpoint |
+| `<Leader>dc` | Start/continue debug |
+| `<Leader>di` | Step into |
+| `<Leader>do` | Step over |
+| `<Leader>du` | Toggle DAP UI |
 
 ## Structure
 
