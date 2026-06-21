@@ -35,29 +35,22 @@ Personal Neovim configuration powered by [lazy.nvim](https://github.com/folke/la
 
 ### And More...
 
-**Tree-sitter** — Syntax highlighting with auto-install for lua, go, rust, python, c/c++, js/ts, html/css, toml, yaml, json, markdown. Requires `cargo` or `npm` for the tree-sitter CLI (auto-installed on first launch).
+| Feature | Plugin | Description |
+|---------|--------|-------------|
+| Tree-sitter | nvim-treesitter | Auto-install parsers for lua, go, rust, python, c/c++, js/ts, html/css, toml, yaml, json, markdown |
+| Rainbow Brackets | rainbow-delimiters | Each bracket pair gets a distinct color for instant visual nesting |
+| Inline Diagnostics | tiny-inline-diagnostic | Errors/warnings on the line, no virtual text clutter |
+| DAP Debugging | nvim-dap + nvim-dap-ui | Breakpoints, step through, watch variables, REPL — all inside Neovim |
+| EasyMotion | vim-easymotion | Jump to any visible character in 2-3 keystrokes |
+| Code Folding | nvim-ufo | Modern fold with virtual text preview of folded content |
+| Yank History | yanky.nvim | Ring-buffer clipboard, picker browse via `<Leader>p` |
+| Todo Comments | todo-comments | TODO/FIXME/HACK/NOTE/PERF/WARNING highlighted, `<Leader>tt` to quickfix |
+| Git Signs | gitsigns | Added/modified/removed signs, inline blame, hunk staging |
+| Color Preview | nvim-colorizer | Hex/rgb/hsl codes shown in their actual color inline |
+| Cursor Word HL | vim-illuminate | All occurrences of word under cursor highlighted |
+| Rust Crates | crates.nvim | Latest version + out-of-date warnings inline in Cargo.toml |
 
-**Rainbow Delimiters** — Each bracket pair gets a distinct color; deeply nested code becomes instantly readable.
-
-**Inline Diagnostics** — tiny-inline-diagnostic shows errors/warnings right on the line where they occur, no virtual text clutter.
-
-**DAP Debugging** — Full debug adapter protocol support via nvim-dap + nvim-dap-ui: breakpoints, step through, watch variables, REPL, all inside Neovim.
-
-**EasyMotion** — Jump to any visible character in 2-3 keystrokes. `s` triggers single-window search, `<Leader>f` searches across all open windows.
-
-**Code Folding** — nvim-ufo provides modern, performant fold with virtual text showing the folded content preview.
-
-**Yank History** — yanky.nvim keeps a ring-buffer clipboard; `<Leader>p` opens a picker to browse and paste any previous yank.
-
-**Todo Comments** — TODO, FIXME, HACK, NOTE, PERF, WARNING keywords are highlighted and searchable via `<Leader>tt`.
-
-**Git Signs** — gitsigns shows added/modified/removed lines in the sign column, with inline blame and hunk staging.
-
-**Color Preview** — nvim-colorizer highlights hex/rgb/hsl codes inline with their actual color.
-
-**Cursor Word HL** — vim-illuminate highlights all occurrences of the word under cursor across the buffer.
-
-**Rust Crates** — crates.nvim shows the latest version and out-of-date warnings inline in `Cargo.toml`.
+> **Note:** Tree-sitter requires `cargo` or `npm` to auto-install the CLI on first launch.
 
 ## Keybindings
 
